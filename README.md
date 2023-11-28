@@ -1,8 +1,8 @@
-# Decentralised-Finance-Application
+# Decentralized-Finance-Application
 ### This is my first Application build 100% on blockchain on top of InternetComputer
 <br/>
 
-> ### This application will give you a basic understanding of how a decentralised application looks like and it strontgly mentions the concept of **Orthogonal Persistence**
+> ### This application will give you a basic understanding of how a decentralized application looks like and it strongly mentions the concept of **Orthogonal Persistence**
 <br/>
 
 ***At last Enjoy using the application till the gas lasts!***
