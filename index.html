@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJHRHRTRQZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZJHRHRTRQZ');
+  </script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dbank</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container" id="c1">
+
+    <img src="Group 1.png" alt="Dbank logo">
+    <p id="current">Current Balance: $<span id="value">300</span></p>
+
+    <button id="reset-btn">Reset $300</button>
+    <div class="divider"></div>
+
+    <form action="#" method="#" id="myForm">
+
+      <h2 class="headingOne">Amount to Top Up</h2>
+      <input type="number" step="0.01" min=0 name="topUp" id="input-amount">
+
+      <h2 class="headingTwo">Amount to Withdraw</h2>
+      <input type="number" name="withdraw" id="withdraw-amount">
+
+      <h2>Compound Interest</h2>
+      <div>
+        <input id="compound-input" type="text" placeholder="0.2">
+        <p id="compound-rate"> % per sec</p>
+      </div>
+
+
+      <input id="submit-btn" type="submit" value="Finalise Transaction">
+
+    </form>
+
+  </div>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
